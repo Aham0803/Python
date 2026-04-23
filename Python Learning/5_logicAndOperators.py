@@ -8,3 +8,4 @@ print(any([email, phone, userName]))
 print(all([email, phone, userName]))
 
 #logical operations
+print(not 3 > 2)
