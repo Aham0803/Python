@@ -1,11 +1,16 @@
-a = 20
+score = 20
 Submitted_project = True
-if a >= 100:
+if score >= 100:
     if Submitted_project:
         print("A+")
     else:
         print("A")
-elif a > 50:
+elif score > 50:
     print("c")
 else:
     print("B")
+
+grade = "A" if score >=  90 else "F"
+print(grade)
+
+print( "A" if score >=  90 else "F")

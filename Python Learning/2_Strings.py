@@ -127,3 +127,5 @@ print(country.isalpha())
 #isnumeric()
 phone = "01761234587"
 print(phone.isnumeric())
+
+
