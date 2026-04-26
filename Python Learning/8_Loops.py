@@ -40,3 +40,26 @@ for table in range(1,11):
 
 for start in range(1,6):
     print("*" * start)
+
+#break statemrnt
+names = ['john' , 'maria' ,'','kumar']
+for name in names :
+    if name == '':
+        print('empty value detected!')
+        break
+    print(f'name ={name}')
+
+# continue statement -> it skips one loop cycle without stoppping the loop
+names = ['john' , 'maria' ,'','kumar']
+for name in names :
+    if name == '':
+        print('empty value detected!')
+        continue
+    print(f'name ={name}')
+
+# pass -> it is a placeholder where nothing happens
+names = ['john' , 'maria' ,'','kumar']
+for name in names :
+    if name == '':
+        pass #todo handle empty value
+    print(f'name ={name}')
