@@ -26,4 +26,4 @@ elif ' ' in Password:
 elif not Password[0].isalnum() or Password[-1].isalnum():
     print('Not valid')
 else:
-    print('password is valid')
+    print('password is valid') 
