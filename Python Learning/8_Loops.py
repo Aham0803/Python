@@ -63,3 +63,4 @@ for name in names :
     if name == '':
         pass #todo handle empty value
     print(f'name ={name}')
+    
