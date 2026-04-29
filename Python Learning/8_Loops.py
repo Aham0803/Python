@@ -63,5 +63,12 @@ for name in names :
     if name == '':
         pass #todo handle empty value
     print(f'name ={name}')
-    
+
+# skips weekends in calender loop
+days = ['mon' , 'sun' , 'wed' , 'tue']
+for day in days:
+    if day in ['sat' , 'sun']:
+        continue
+    else:
+        print(f'workday : {day}')
     
