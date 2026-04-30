@@ -70,5 +70,20 @@ for day in days:
     if day in ['sat' , 'sun']:
         continue
     else:
-        print(f'workday : {day}')
-    
+        print(f'workday : {day}') 
+
+# scan email to block unsafe data from entering your system
+emails = [
+    'data@gmail.com',
+    'baraa@outlook.de',
+    'Drop Table users;'
+    'maria@gmail.com'
+]
+
+for email in emails:
+    if ';' in email:
+        print('sql injection: hacker attack')
+        break
+    print(f' Processing email: {email}')
+
+print("email")
