@@ -91,6 +91,8 @@ print("email")
 # else in loop -> runs a block of code only if loop finishes naturally
 items = [1 , 3 ,4 , 7]
 for i in items:
-    print(i)
+    if i%2 == 0:
+        print("even number is found" ,i)
+        break
 else:
-    print("loop is completed")
+    print("All no are odd")
