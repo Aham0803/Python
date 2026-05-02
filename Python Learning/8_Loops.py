@@ -87,3 +87,10 @@ for email in emails:
     print(f' Processing email: {email}')
 
 print("email")
+
+# else in loop -> runs a block of code only if loop finishes naturally
+items = [1 , 3 ,4 , 7]
+for i in items:
+    print(i)
+else:
+    print("loop is completed")
